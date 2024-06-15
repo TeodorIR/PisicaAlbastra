@@ -1,0 +1,118 @@
+body {
+  font-family: "Playfair Display", sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+/* navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 10px;
+  z-index: 1;
+}
+.navbar .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 200px;
+  margin: 0 0 0 50px;
+  padding: 0;
+}
+
+.navbar .logo p {
+  font-size: large;
+}
+
+.navbar .links {
+  margin-right: 70px;
+}
+
+.navbar .links ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar .links ul li a {
+  padding: 0 50px;
+  text-decoration: none;
+}
+
+.navbar .socials img {
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  padding: 0 50px 0 0;
+}
+
+/* hero */
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: absolute;
+  top: 0;
+  height: 100vh;
+}
+
+.hero .card-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.hero .card-left h1,
+h2 {
+  font-weight: 100;
+}
+
+.hero .card-left h1 {
+  font-size: 100px;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+}
+
+.hero .card-left h2 {
+  font-size: 60px;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.hero .card-right {
+  width: 100%;
+  height: 100%;
+}
+
+.hero .card-right img {
+  width: 100%;
+  height: 100%;
+}
+
+.find {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(46, 105, 175);
+  color: white;
+  margin-top: 20px;
+  padding: 20px 40px;
+  border: none;
+  border-radius: 50px;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.find img {
+  width: 20px;
+  filter: invert(1);
+  padding: 0 0 0 5px;
+}
