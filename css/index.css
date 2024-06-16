@@ -219,3 +219,56 @@ h2 {
   color: rgb(93, 93, 93);
   letter-spacing: 1px;
 }
+
+/* team */
+
+.team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.team h2 {
+  font-size: 40px;
+  border-bottom: 3px solid rgb(129, 216, 212);
+  padding-bottom: 5px;
+}
+
+/* people */
+
+.people {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  box-sizing: border-box;
+  gap: 200px;
+  margin: 20px 0 20px 0;
+}
+
+.people img {
+  width: 200px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+.alexandru {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ioana {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.marius {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
